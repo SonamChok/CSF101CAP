@@ -1,4 +1,19 @@
-
+################################
+# Sonam Choki
+# 1ME
+# 0230272
+################################
+# REFERENCES
+# https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game/
+# https://stackoverflow.com/questions/51467707/simplify-python-code-rock-paper-scissors
+# the problem
+# http://link.to.an.article/video.com
+################################
+# SOLUTION
+# Your Solution Score:
+# 49801
+################################
+# Read the input.txt file
 def read_input(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -39,5 +54,5 @@ def calculate_score(game_rounds):
 
 # Running the code
 if __name__ == "__main__":
-    game_rounds = read_input("CSF101CAP/input_2_cap1.txt")
+    game_rounds = read_input("input_2_cap1.txt")
     calculate_score(game_rounds)
